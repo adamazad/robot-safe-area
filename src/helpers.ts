@@ -16,8 +16,8 @@ export const isPointSafe = (x: number, y: number): boolean =>
 
 // A lsit of points to explore around a coordinate
 export const moves = [
-  { dx: 1, dy: 0 }, // ⬆
-  { dx: -1, dy: 0 }, // ⬇
-  { dx: 0, dy: 1 }, // ➡
-  { dx: 0, dy: -1 }, // ⬅
+  { dx: 1, dy: 0 }, // ➡
+  { dx: -1, dy: 0 }, // ⬅
+  { dx: 0, dy: 1 }, // ⬆
+  { dx: 0, dy: -1 }, // ⬇
 ];
