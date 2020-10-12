@@ -10,7 +10,7 @@ How large is the area that the robot can access?
 
 ## Answer
 
-592597. The robot can traverse on the grid in four possible directions:
+The total area is 592597. The robot can traverse on the grid in four possible directions:
 
 - Up/North `(x, y+1)`
 - Down/South `(x, y-1)`
