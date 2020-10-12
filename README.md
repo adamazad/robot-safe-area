@@ -58,3 +58,10 @@ explore(0, 0)
 The stack can fill up really quickly. In practice, I had Node.js using almost 2100MB of memory until the maximum call stack reached.
 
 The solution was to use a flat data structure. An array that stores points (x, y) was more efficient. So, I opted for `Array.pop` and `Array.push` to create a simple queue.
+
+## Run
+
+```
+npm i
+npm run start
+```
